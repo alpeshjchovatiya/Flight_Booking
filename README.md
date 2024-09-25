@@ -8,17 +8,17 @@ Flight ticket prices fluctuate due to a variety of factors, such as the airline,
 To build a machine learning model that predicts the price of flight tickets based on features such as airline, flight route, time of day, duration, number of stops, and the number of days left before departure. This model will help customers make informed decisions on when to book flights and at what price.
 
 ### Dataset Overview:
-**1. airline:** The airline offering the flight.
-**2. flight:** Flight number or identifier.
-**3. source_city:** The city of departure.
-**4. departure_time:** The time of day of the departure (e.g., Morning, Evening).
-**5. stops:** Number of stops during the flight (e.g., zero stops).
-**6. arrival_time:** Time of arrival at the destination.
-**7. destination_city:** The destination city.
-**8. class:** The class of the flight (e.g., Economy).
-**9. duration:** Duration of the flight (in hours).
-**10. days_left:** The number of days left before departure.
-**11. price:** The price of the flight ticket (target variable).       
+**1. airline:** The airline offering the flight.  
+**2. flight:** Flight number or identifier.  
+**3. source_city:** The city of departure.   
+**4. departure_time:** The time of day of the departure (e.g., Morning, Evening).   
+**5. stops:** Number of stops during the flight.   
+**6. arrival_time:** Time of arrival at the destination.   
+**7. destination_city:** The destination city.    
+**8. class:** The class of the flight (e.g., Economy).     
+**9. duration:** Duration of the flight (in hours).  
+**10. days_left:** The number of days left before departure.   
+**11. price:** The price of the flight ticket (target variable).        
 
 ### Summary of Results:
 **Random Forest:** 0.98     
