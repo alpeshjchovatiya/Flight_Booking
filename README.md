@@ -8,6 +8,8 @@ Flight ticket prices fluctuate due to a variety of factors, such as the airline,
 To build a machine learning model that predicts the price of flight tickets based on features such as airline, flight route, time of day, duration, number of stops, and the number of days left before departure. This model will help customers make informed decisions on when to book flights and at what price.
 
 ### Dataset Overview:
+This dataset contains  300153 records with following 11 columns.  
+
 **1. airline:** The airline offering the flight.  
 **2. flight:** Flight number or identifier.  
 **3. source_city:** The city of departure.   
